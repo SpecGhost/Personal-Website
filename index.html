@@ -1,41 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
-    />
+  <meta charset="utf-8">
+  <title>Chinazor Agummadu</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/queries.css">
+
+  <!--Ionicons -->
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
 <body>
-    <nav class="bar">
-        <div class="navbar__container">
-            <a href="/" id="navbar__logo">My Website</a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="/" class="navbar__links"> Home </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/about.html" class="navbar__links"> About </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/" class="navbar__links"> Experience </a>
-                </li>
-                <li class="navbar__btn">
-                    <a href="/" class="button"> Contact </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <script src="app.js"></script>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="">Chinazor's Profile Website</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Customers</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#Projects"> Project Link page</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#contactme">Contact</a>
+          </li>
+      </ul>
+   </div>
+  </nav>
+
+
+
+    <!-- Title -->
+
+    <div class="row">
+    <div class="col-lg-6">
+      <h1 class="big-heading">Website test for a project.</h1>
+      <button type="button" class="btn btn-lg btn-dark download-button"><ion-icon name="logo-apple"></ion-icon> Download</button>
+      <button type="button" class="btn btn-lg btn-outline-light download-button"><ion-icon name="logo-google-playstore"></ion-icon> Download</button>
+    </div>
+    <div class="col-lg-6">
+      <img class="image-pb2" src="images/1544158095598.png" alt="pb2-mockup">
+    </div>
+    </div>
+  </div>
+  </section>
+
+
+  <!-- About -->
+
+  <section class="white-section" id="about">
+    
+    <div class="row">
+    
+    <div class="about-box col-lg-4">
+      <ion-icon name="heart-half-outline" class="about-icon"></ion-icon> 
+      <h3>A progressing website developer</h3>
+      <p>making a website that's made use of bootstrap.</p>
+  
+    </div>
+    <div class="about-box col-lg-4">
+      <ion-icon name="star-half-outline" class="about-icon"></ion-icon>
+      <h3>Made a personal website with html and css before</h3>
+      <p>I thought of Plazma Burst 2 while making this so I added a pic.</p>
+  
+    </div>
+    <div class="about-box col-lg-4">
+      <ion-icon name="checkmark-circle-outline" class="about-icon"></ion-icon>
+      <h3>Plazma Burst 2</h3>
+      <p>I had alot of love for this game back in Middle School, played it more than minecraft in my freetime.</p>
+    </div>
+   
+  </div>
+  
+
+  </section>
+
+
+  <!-- End of Site -->
+
+  <section class="colored-section" id="cta">
+
+    <h3 class="big-heading">I hope you enjoyed looking through this website.</h3>
+    <p><a href="https://www.plazmaburst2.com/" target="_blank">Visit the Plazma Burst 2 Homepage!</a> </p>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <ion-icon class="footer-logo" name="logo-instagram"></ion-icon>
+    <ion-icon class="footer-logo" name="logo-twitter"></ion-icon>
+    <ion-icon class="footer-logo" name="logo-youtube"></ion-icon>
+
+  </footer>
+
+
 </body>
+
 </html>
